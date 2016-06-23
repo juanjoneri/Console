@@ -3,7 +3,7 @@ public class Console{
 
     //CLASS LEVEL VARIABLES ------------
     private TheMatrix matrix;
-    private static final int SLEEP_TIME = 500; //milliseconds
+    private static final int SLEEP_TIME = 400; //milliseconds
 
     //CONSTRUCTORS ---------------------
     public Console(){

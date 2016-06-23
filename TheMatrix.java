@@ -35,6 +35,7 @@ public class TheMatrix{
     }
 
     public void paintPixel(int[][] coordinates){
+        //an int[][2] should be provided; Condition currently not checked!
         for(int[] row : coordinates){
             int x = row[0];
             int y = row[1];
@@ -55,6 +56,7 @@ public class TheMatrix{
     }
 
     public void deletePixel(int[][] coordinates){
+        //an int[][2] should be provided; Condition currently not checked!
         for(int[] row : coordinates){
             int x = row[0];
             int y = row[1];
@@ -84,6 +86,7 @@ public class TheMatrix{
     }
 
     public String[][] returnStrings(){
+        //returns as string reresentation of the matrix
 
         int xLength = this.getXLength();
         int yLength = this.getYLength();
@@ -92,10 +95,10 @@ public class TheMatrix{
         for(int x=0; x<xLength; x++){
             for(int y=0; y<yLength; y++){
                 if(getPixel(x,y)){
-                    stringMatrix[x][y] = "X";
+                    stringMatrix[x][y] = "X|"; //However you would like the living to look like
                 }
                 else{
-                    stringMatrix[x][y] = "_";
+                    stringMatrix[x][y] = " |"; //However you would like the empty to look like
                 }
             }
         }
