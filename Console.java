@@ -3,7 +3,7 @@ public class Console{
 
     //CLASS LEVEL VARIABLES ------------
     private TheMatrix matrix;
-    private static final int SLEEP_TIME = 400; //milliseconds
+    private static final int SLEEP_TIME = 5000; //milliseconds
 
     //CONSTRUCTORS ---------------------
     public Console(){
@@ -20,7 +20,7 @@ public class Console{
         int yLength = this.matrix.getYLength();
         String line;
 
-        for(int x=0; x<xLength; x++){
+        for(int x = 0; x < xLength; x ++){
             line = "";
             for(int y=0; y<yLength; y++){
                 line += matrix.returnStrings()[x][y];
