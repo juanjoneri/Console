@@ -68,7 +68,7 @@ public class Life{
 
     private static void printInstructions(){
         System.out.println("                ## MANUAL ##\n"
-        + "java Life <height> <width> <init_alive> <days>\n");
+        + "java Life <width> <height> <init_alive> <days>\n");
         try {
             Thread.sleep( 3000 );
         } catch(InterruptedException e){
