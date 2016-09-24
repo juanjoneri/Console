@@ -3,7 +3,7 @@ A "library" which allows the user to draw in the command line. Includes my own i
 
 ## Summary
 Draws a matrix in the terminal and updates its entries between | | and |X| to represent full cells.
-This allows for some useful and fun UI expreiences in the within the commmand line.
+This allows for some useful and fun UI experiences in the within the command line.
 
 ## Applications
 In this particular case two applications were made
