@@ -12,4 +12,4 @@ In this particular case two applications were made
 
 
 ### Example of a 74 by 105 game of life after 200 days 
-![Image of Game of Life](http://juanjoneri.me/img/life.jpg)
+![Image of Game of Life](http://juanjoneri.com/img/life.jpg)
